@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * parse_uint - substitute %u by argument number
+ * func_uint - substitute %u by argument number
  * @buff_dest: string to change
  * @arg: va_list arg to change
  * @buff_count: index of dst where the u of %u is
  * Return: New index
  */
-int parse_uint(char *buff_dest, va_list arg, int buff_count)
+int func_uint(char *buff_dest, va_list arg, int buff_count)
 {
 	int tens = 1;
 	unsigned int tmp;
