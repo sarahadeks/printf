@@ -30,4 +30,3 @@ int parse_bin(char *buff_dest, va_list arg, int buff_count)
 
 	return (buff_count);
 }
-
