@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * parse_oct - substitute %o by unsigned int argument number
+ * func_oct - substitute %o by unsigned int argument number
  * @buff_dest: string to change
  * @arg: va_list arg to change
  * @buff_count: index of buffer where the o of %o is
  * Return: New index
  */
-int parse_oct(char *buff_dest, va_list arg, int buff_count)
+int func_oct(char *buff_dest, va_list arg, int buff_count)
 {
 	unsigned int number = va_arg(arg, unsigned int);
 	unsigned int tmp = number;
