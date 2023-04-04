@@ -7,7 +7,7 @@
  * @buff_count: index of dst where the R of %R is
  * Return: New index
  */
-int parse_R13(char *buff_dest, va_list arg, int buff_count)
+int func_R13(char *buff_dest, va_list arg, int buff_count)
 {
 	char *str;
 	char *keys = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
