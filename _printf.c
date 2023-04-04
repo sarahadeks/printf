@@ -13,9 +13,9 @@ int _printf(const char *format, ...)
 	char buffer[2000];
 	va_list arg;
 	call_t container[] = {
-		{'c', parse_char}, {'s', parse_str}, {'i', parse_int}, {'d', parse_int},
-		{'%', parse_perc}, {'b', parse_bin}, {'o', parse_oct}, {'x', parse_hex},
-		{'X', parse_X}, {'u', parse_uint}, {'R', parse_R13}, {'r', parse_rev},
+		{'c', func_char}, {'s', func_str}, {'i', func_int}, {'d', func_int},
+		{'%', func_perc}, {'b', func_bin}, {'o', func_oct}, {'x', func_hex},
+		{'X', func_X}, {'u', func_uint}, {'R', func_R13}, {'r', func_rev},
 		{'\0', NULL}
 	};
 
